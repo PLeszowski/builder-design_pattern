@@ -10,11 +10,10 @@ public class Main {
 
         meal1.prepareBeefBurger();
 
-        meal = meal1.getMeal();
+        meal1.getMeal().showItems();
 
-        meal.showItems();
 
-        System.out.println("Meal Cost: " + meal.getCost());
+        System.out.println("Meal Cost: " + meal1.getMeal().getCost());
 
         System.out.println("--------------------");
 
@@ -22,11 +21,9 @@ public class Main {
 
         meal2.prepareChickenBurger();
 
-        meal = meal2.getMeal();
+        meal2.getMeal().showItems();
 
-        meal.showItems();
-
-        System.out.println("Meal Cost: " + meal.getCost());
+        System.out.println("Meal Cost: " + meal2.getMeal().getCost());
 
 
 
